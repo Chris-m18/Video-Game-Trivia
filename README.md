@@ -206,20 +206,22 @@ https://git.generalassemb.ly/Chrismatos18/Video-Game-Trivia/files/3623/Copy.of.V
 
 ### MVP/PostMVP
 
-getting API working, scorboard working and 
+getting API working, scorboard working,use flexbox to style css
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
+
 
 - Find and use external api 
 - Render data on page 
 - Get Bottons to work with currect answer
+- scord tracked 
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- styling page extensively
--get some animation 
+
+- moving backgrond 
+- x anmation when you answer choose wrong answer 
+- get some animation when yu chose correct answer
 
 ## Project Schedule
 
@@ -252,16 +254,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding HTML | H | 1hrs| hrs | hrs |
-| Api | H | 2hrs| hrs | hrs |
-| css | H | 3hrs| hrs | hrs |
-|pseudocode | H | 4hrs| hrs | hrs |
-| javascript | H | 7hrs| hrs | hrs |
-| clickable buttons | 3H | 1hrs| hrs | hrs |
-| mvp prep | H | 6hrs| hrs | hrs |
-| adding style | H | 4hrs| hrs | hrs |
+| basic css stayling | H | 2hrs| hrs | hrs |
+| flex css| H | 2hrs| hrs | hrs |
+| designing buttons  | H | 2hrs| hrs | hrs |
+|pseudocode my js | H | 4hrs| hrs | hrs |
+| js | H | 7hrs| hrs | hrs |
+| axios working | H | 3hrs| hrs | hrs |
+|event listener | H | 2hrs| hrs | hrs |
+| score borad| H | 2hrs| hrs | hrs |
+| prep for mvp| H | 3hrs| hrs | hrs |
+| post s | H | 4hrs| hrs | hrs |
 
 
-| Total | H | 30hrs| 0hrs | 0hrs |
+| Total | H | 32hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
