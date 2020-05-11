@@ -1,0 +1,42 @@
+body{
+  background-color: #a5a8b0;
+}
+
+.title{
+ text-align: center;
+ font-size: xx-large;
+ color: red;
+ font-family: 'Bungee Outline', cursive;
+
+
+}
+.Quistion{
+  text-align: center;
+  background-color: #a5a8b0;
+  width: 500px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+
+
+.allbuttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50%;
+
+
+}
+
+.start{
+  text-align: center;
+ 
+
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  
+}
