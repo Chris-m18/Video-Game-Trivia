@@ -201,7 +201,7 @@ https://opentdb.com/api.php?amount=10&category=15
 
 ## Wireframes
 
-
+https://git.generalassemb.ly/Chrismatos18/Video-Game-Trivia/issues/1#issue-289170
 
 
 ### MVP/PostMVP
