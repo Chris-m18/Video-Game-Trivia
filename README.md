@@ -231,12 +231,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 8| Project Prompt | Incomplete
+|May | Project Prompt | Incomplete
 |May 9-10| Wireframes / Priority Matrix / Timeframes | Incomplete
-|May 11| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|May 12| Pseudocode / actual code | Incomplete
-|May 13| Initial Clickable Model  | Incomplete
-|May 14| MVP | Incomplete
+|May 11| Apporval, HTML, starting css | Incomplete
+|May 12| finishing css,Templet for js, start write js | Incomplete
+|May 13| finish js,getting scordborad working| Incomplete
+|May 14| finalizing MVP to be marked complete | Incomplete
 |May 15| Present | Incomplete
 
 ## Priority Matrix
@@ -262,8 +262,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | axios working | H | 3hrs| hrs | hrs |
 |event listener | H | 2hrs| hrs | hrs |
 | score borad| H | 2hrs| hrs | hrs |
-| prep for mvp| H | 3hrs| hrs | hrs |
-| post s | H | 4hrs| hrs | hrs |
+|  mvp review| H | 3hrs| hrs | hrs |
+| post styling  | H | 4hrs| hrs | hrs |
+
+
 
 
 | Total | H | 32hrs| 0hrs | 0hrs |
