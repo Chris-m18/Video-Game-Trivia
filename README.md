@@ -201,7 +201,7 @@ https://opentdb.com/api.php?amount=10&category=15
 
 ## Wireframes
 
-https://git.generalassemb.ly/Chrismatos18/Video-Game-Trivia/issues/1#issue-289170
+https://git.generalassemb.ly/Chrismatos18/Video-Game-Trivia/files/3623/Copy.of.VIDEO.GAME.pdf
 
 
 ### MVP/PostMVP
@@ -241,6 +241,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
 
+https://docs.google.com/drawings/d/1KjyYGPl52mqLqnl34L0AdIj7W4im6m7Ehrc7PyDOftY/edit
+
 ## Timeframes
 
 Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
@@ -250,14 +252,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Adding HTML | H | 1hrs| hrs | hrs |
-| css | H | 2hrs| hrs | hrs |
+| Api | H | 2hrs| hrs | hrs |
+| css | H | 3hrs| hrs | hrs |
 |pseudocode | H | 4hrs| hrs | hrs |
-| javascript | H | 5hrs| hrs | hrs |
-| mvp prep | H | 4hrs| hrs | hrs |
+| javascript | H | 7hrs| hrs | hrs |
+| clickable buttons | 3H | 1hrs| hrs | hrs |
+| mvp prep | H | 6hrs| hrs | hrs |
 | adding style | H | 4hrs| hrs | hrs |
 
 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 30hrs| 0hrs | 0hrs |
 
 ## Code Snippet
 
