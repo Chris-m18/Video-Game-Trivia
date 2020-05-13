@@ -1,28 +1,47 @@
 body{
   
-  background-color: #a5a8b0;
+background-image: url(https://i.imgur.com/P1uy6u3.jpg);
+background-size: cover;
+background-position: bottom;
+background-attachment: fixed;
 
+}
+
+h2{
+  color: #FF69B4	;
 }
 
 .title{
  text-align: center;
  font-size: xx-large;
- color: red;
+ color: #FF69B4	;
  font-family: 'Bungee Outline', cursive;
 
 
 }
 .Question{
+  left: 0;
+  line-height: 200px;
+  margin-top: -100px;
+  position: absolute;
   text-align: center;
-  
-
+  top: 50%;
+  width: 100%;
+color: #0bd3d3;
+font-family: ;
 
 }
 
 
 .allbuttons{
-display: flex;
-justify-content: center;
+  left: 0;
+  line-height: 300px;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  
 
 
 }
@@ -36,5 +55,12 @@ justify-content: center;
 footer{
   display: flex;
   justify-content: center;
+ 
   
+}
+
+#fullreset{
+  display: flex;
+  align-content: flex-start;
+  color: #0bd3d3;
 }
