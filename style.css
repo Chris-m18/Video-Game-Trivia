@@ -1,5 +1,7 @@
 body{
+  
   background-color: #a5a8b0;
+
 }
 
 .title{
@@ -12,19 +14,15 @@ body{
 }
 .Question{
   text-align: center;
-  background-color: #a5a8b0;
-  width: 500px;
-  border: 15px solid red;
-  padding: 50px;
-  margin: 20px;
+  
+
+
 }
 
 
 .allbuttons{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 50%;
+display: flex;
+justify-content: center;
 
 
 }
