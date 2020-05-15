@@ -242,8 +242,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
-
-https://docs.google.com/drawings/d/1KjyYGPl52mqLqnl34L0AdIj7W4im6m7Ehrc7PyDOftY/edit
+![Image description](https://docs.google.com/drawings/d/1KjyYGPl52mqLqnl34L0AdIj7W4im6m7Ehrc7PyDOftY/edit)
 
 ## Timeframes
 
@@ -253,17 +252,17 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding HTML | H | 1hrs| hrs | hrs |
-| basic css stayling | H | 2hrs| hrs | hrs |
-| flex css| H | 2hrs| hrs | hrs |
-| designing buttons  | H | 2hrs| hrs | hrs |
-|pseudocode my js | H | 4hrs| hrs | hrs |
-| js | H | 7hrs| hrs | hrs |
-| axios working | H | 3hrs| hrs | hrs |
-|event listener | H | 2hrs| hrs | hrs |
-| score borad| H | 2hrs| hrs | hrs |
-|  mvp review| H | 3hrs| hrs | hrs |
-| post styling  | H | 4hrs| hrs | hrs |
+| Adding HTML | H | 1hrs| 30min | 30mins |
+| basic css stayling | H | 2hrs| 2hrs | 2hrs |
+| flex css| H | 2hrs| 2hrs | 2hrs |
+| designing buttons  | H | 2hrs| 1hrs | 1hrs |
+|pseudocode my js | H | 4hrs| 4hrs | 4hrs |
+| js | H | 7hrs| 9hrs | 9hrs |
+| axios working | H | 3hrs| 2hrs | 2hrs |
+|event listener | H | 2hrs| 1hrs | 1hrs |
+| score borad| H | 2hrs| 2hrs | 2hrs |
+|  mvp review| H | 3hrs| 3hrs | 3hrs |
+| post styling  | H | 4hrs| 4hrs | 4hrs |
 
 
 
@@ -274,10 +273,6 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
 ```
 
 ## Change Log
