@@ -201,8 +201,7 @@ https://opentdb.com/api.php?amount=10&category=15
 
 ## Wireframes
 
-https://git.generalassemb.ly/Chrismatos18/Video-Game-Trivia/files/3623/Copy.of.VIDEO.GAME.pdf
-
+![Image description](https://i.imgur.com/9TawYiy.png)
 
 ### MVP/PostMVP
 
@@ -242,7 +241,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 ## Priority Matrix
 
 Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
-![Image description](https://docs.google.com/drawings/d/1KjyYGPl52mqLqnl34L0AdIj7W4im6m7Ehrc7PyDOftY/edit)
+![Image description](https://i.imgur.com/H3jQa9K.jpg)
 
 ## Timeframes
 
