@@ -41,10 +41,10 @@ function game() {
     //for multiple choice quesitons, the answers always need to presented in a random order
     // if (question[0].type === 'multiple') {
      
-    function htmlEntities(str) {
-        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/&/g, "&#039;s;");
+      function htmlEntities(str) {
+        return str.replace(/'/g, '&#039').replace(/&amp;/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;').replace(/&quot;/g, '&quot;').replace(/&#039/g, "'").replace(/&eacute/g, "&eacute;");
       }
-      
+    
     // funciton that shuffles they array of answer options created above
     function shuffle(array) {
       let currentIndex = array.length - 1
@@ -79,7 +79,7 @@ function game() {
     for (let i = 0; i < shuffledArray.length; i++) {
       let button = document.createElement('button')
       button.classList.add("answerButton")
-      button.innerText = shuffledArray[i]
+      button.innerText =  htmlEntities(shuffledArray[i])
       answerDiv.append(button)
       button.addEventListener('click', (e) => {
         check(e.target.textContent, correctAnswer)

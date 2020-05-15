@@ -218,7 +218,7 @@ getting API working, scorboard working,use flexbox to style css
 #### PostMVP  
 
 
-- moving backgrond 
+- anmation  
 - x anmation when you answer choose wrong answer 
 - get some animation when yu chose correct answer
 
@@ -230,13 +230,13 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|May | Project Prompt | Incomplete
-|May 9-10| Wireframes / Priority Matrix / Timeframes | Incomplete
-|May 11| Apporval, HTML, starting css | Incomplete
-|May 12| finishing css,Templet for js, start write js | Incomplete
-|May 13| finish js,getting scordborad working| Incomplete
-|May 14| finalizing MVP to be marked complete | Incomplete
-|May 15| Present | Incomplete
+|May | Project Prompt | complete
+|May 9-10| Wireframes / Priority Matrix / Timeframes | complete
+|May 11| Apporval, HTML, starting css | complete
+|May 12| finishing css,Templet for js, start write js | complete
+|May 13| finish js,getting scordborad working| complete
+|May 14| finalizing MVP to be marked complete | complete
+|May 15| Present | complete
 
 ## Priority Matrix
 
@@ -266,13 +266,27 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 
 
-| Total | H | 32hrs| 0hrs | 0hrs |
+| Total | H | 32hrs| 33.5hrs | 33.5hrs |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+```
+```@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+```
+getting my scroe to glow 
 
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+button layout 
+standard backgrong
+
