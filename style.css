@@ -7,21 +7,26 @@ background-attachment: fixed;
 
 }
 
-h2{
-  color: #FF69B4	;
+.score{
+display: flex;
+justify-content: center;
+ color: #FF69B4;
+
 }
 
 .title{
  text-align: center;
  font-size: xx-large;
  color: #FF69B4	;
- font-family: 'Bungee Outline', cursive;
+ font-family:  'Laser84';
+ font-weight: 100;
+
 
 
 }
 .Question{
   left: 0;
-  line-height: 200px;
+  line-height: 100px;
   margin-top: -100px;
   position: absolute;
   text-align: center;
@@ -35,16 +40,29 @@ font-family: ;
 
 .allbuttons{
   left: 0;
-  line-height: 300px;
-  margin-top: -100px;
+  line-height: 400px;
+  margin-top: -150px;
   position: absolute;
   text-align: center;
   top: 50%;
   width: 100%;
   
+    }
 
+    .answerButton{
+      padding: 0;
+      margin: 10px;
+      height: 30px;
+      outline: none;
+      border-radius: 3px;
+      background: transparent ;
+      border: 2px solid #0bd3d3;
+      font-size: 12px;
+      transition: 0.5s;
+      color:  #FF69B4;
 
-}
+      
+    }
 
 .start{
   text-align: center;
@@ -54,7 +72,7 @@ font-family: ;
 
 footer{
   display: flex;
-  justify-content: center;
+  
  
   
 }
@@ -64,3 +82,18 @@ footer{
   align-content: flex-start;
   color: #0bd3d3;
 }
+
+p {
+  display: flex;
+
+  color: #FF69B4;
+
+}
+
+@font-face{
+  font-family:  'Laser84';
+  src: url(/font/Lazer84.ttf);
+  font-style: normal;
+  font-weight: 100 ;
+}
+

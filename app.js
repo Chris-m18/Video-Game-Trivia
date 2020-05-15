@@ -2,6 +2,7 @@ let index = 0
 let score = 0
 let trivia;
 let tracker = document.querySelector('.score')
+
 async function fetchData() {
   const url = "https://opentdb.com/api.php?amount=10&category=15&type=multiple"
 
@@ -24,8 +25,8 @@ function game() {
     reset()
   } else {
 
-    
-  
+
+   
     questionDiv.innerHTML = ``;
     answerDiv.innerHTML = ``;
     console.log(trivia)
@@ -39,7 +40,11 @@ function game() {
 
     //for multiple choice quesitons, the answers always need to presented in a random order
     // if (question[0].type === 'multiple') {
-
+     
+    function htmlEntities(str) {
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/&/g, "&#039;s;");
+      }
+      
     // funciton that shuffles they array of answer options created above
     function shuffle(array) {
       let currentIndex = array.length - 1
@@ -56,20 +61,15 @@ function game() {
       }
       return array;
     }
-  
+
     //call the shuffle function and store results in an array
     let shuffledArray = shuffle(arrayAnswers)
 
     //udpate the HTML using the shuffled answer options.
 
-    //display answer options in radio buttons
-
-
     // Create array of questions
 
-
     // Shuffle array
-
 
     // Include shuffled array into HTML somehow (below)
 
@@ -83,7 +83,7 @@ function game() {
       answerDiv.append(button)
       button.addEventListener('click', (e) => {
         check(e.target.textContent, correctAnswer)
-      
+
         game()
       })
 
@@ -97,11 +97,11 @@ function game() {
 function check(userAnswer, correctAnswer) {
   if (userAnswer == correctAnswer) {
     console.log("correct")
-    score += 5
+    score += 10
     tracker.textContent = `score: ${score}`
   } else {
     console.log('wrong')
-   
+
   }
 
   console.log(score)
@@ -109,5 +109,5 @@ function check(userAnswer, correctAnswer) {
 
 function reset() {
   location.reload();
-  
+
 }
