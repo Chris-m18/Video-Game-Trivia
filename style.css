@@ -7,19 +7,31 @@ background-attachment: fixed;
 
 }
 
-.score{
-display: flex;
-justify-content: center;
- color: #FF69B4;
-
+.score {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Monoton', cursive;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
 }
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+/* sourced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_glowing_text */
 
 .title{
  text-align: center;
  font-size: xx-large;
  color: #FF69B4	;
- font-family:  'Laser84';
- font-weight: 100;
+ font-family: 'Monoton', cursive;
 
 
 
@@ -33,7 +45,7 @@ justify-content: center;
   top: 50%;
   width: 100%;
 color: #0bd3d3;
-font-family: ;
+
 
 }
 
@@ -61,12 +73,26 @@ font-family: ;
       transition: 0.5s;
       color:  #FF69B4;
 
-      
-    }
+   }
+   .glow-button:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px rgba(253, 23, 176, 0.911);
+   }
 
 .start{
   text-align: center;
- 
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: #FF69B4;
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Monoton', cursive;
+    
+
+  
 
 }
 
@@ -85,15 +111,11 @@ footer{
 
 p {
   display: flex;
-
+  justify-content: center;
   color: #FF69B4;
+  font-family: 'Monoton', cursive;
+  position: absolute;
+  right: 0;bottom:0;left:0;
 
-}
-
-@font-face{
-  font-family:  'Laser84';
-  src: url(/font/Lazer84.ttf);
-  font-style: normal;
-  font-weight: 100 ;
 }
 
